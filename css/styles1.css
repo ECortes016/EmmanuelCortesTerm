@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+h1 {
+    display: block;
+    width: 25%;
+    padding-left: 15px;
+    border-left: black solid;
+    border-width: 4px;
+    font-size: 2em;
+    font-family: 'Lato', sans-serif;
+}
+
+article {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+article > p {
+    font-size: 1.2em;
+    width: 50%;
+    font-family: 'ABeeZee', sans-serif;
+    display: block; 
+}
