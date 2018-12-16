@@ -1,25 +1,32 @@
 @charset "utf-8";
 
-h1 {
-    display: block;
+div.images {
     width: 25%;
-    padding-left: 15px;
-    border-left: black solid;
-    border-width: 4px;
-    font-size: 2em;
-    font-family: 'Lato', sans-serif;
+    float: left;
 }
 
-article {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+#me {
+    width: 70%;
+    float: right;
+    padding: 15px;
+    border-radius: 360px;
+    /* size of current image [169.042 x 165.656] */
 }
 
-article > p {
-    font-size: 1.2em;
+div.body {
+    width: 60%;
+    float: left;
+    padding-left: 50px;
+    display: flex;
+}
+
+.body article h1 {
+    font-family: 'Allan', Helvetica, Arial, sans-serif;
+    font-size: 3em;
+}
+
+.body article p {
     width: 50%;
-    font-family: 'ABeeZee', sans-serif;
-    display: block; 
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    font-size: 1.3em
 }
