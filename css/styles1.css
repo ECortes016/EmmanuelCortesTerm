@@ -1,32 +1,85 @@
 @charset "utf-8";
+/* size of current image [169.042 x 165.656] */
 
-div.images {
-    width: 25%;
-    float: left;
+/* div {
+    border: red solid
+} */
+
+/* DIV STYLES */
+
+div.icons {
+    width: 35%;
+    text-align: center;
+    display: inline-block
 }
 
-#me {
-    width: 70%;
-    float: right;
-    padding: 15px;
-    border-radius: 360px;
-    /* size of current image [169.042 x 165.656] */
-}
-
-div.body {
-    width: 60%;
-    float: left;
-    padding-left: 50px;
-    display: flex;
-}
-
-.body article h1 {
-    font-family: 'Allan', Helvetica, Arial, sans-serif;
-    font-size: 3em;
-}
-
-.body article p {
+div.bcontent {
     width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* SOCIAL MEDIA ICONS */
+
+.smicons ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.smicons ul li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 0 8px;
+}
+
+.smicons ul li a {
+    display: block;
+    font-size: 50px;
+    border-radius: 360px;
+}
+
+.smicons ul li a i {
+    line-height: 100px;
+}
+
+#ds {
+    background: #7289DA;
+    color: white;
+}
+
+#ig {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: white;
+}
+
+/
+/* BODY CONTENT STYLES */
+
+h3,
+h2 {
+    font-family: 'Allan', Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0 0 15px 0;
+}
+
+div.icons img {
+    border-radius: 100%;
+    padding: 20px;
+}
+
+div.bcontent article p {
     font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
-    font-size: 1.3em
+    font-size: 1.2em;
+    line-height: 30px
 }

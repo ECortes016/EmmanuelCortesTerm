@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* DIV STYLES */
+
+div.wrap {
+    column-count: 3;
+    vertical-align: top;
+    column-rule: 1px solid #999;
+    margin: 15px 0px
+}
+
+div.column h2 {
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+    font-size: 1.7em;
+    font-family: 'Allan', Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+}
+
+div.column h3 {
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+
+div.column p {
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    font-size: 1.3em;
+    line-height: 30px;
+    padding: 20px;
+}
+
+div.column img {
+    margin: 0 auto;
+    width: 10%;
+    display: block;
+}
