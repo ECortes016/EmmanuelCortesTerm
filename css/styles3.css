@@ -4,9 +4,8 @@
 
 div.wrap {
     column-count: 3;
-    vertical-align: top;
     column-rule: 1px solid #999;
-    margin: 15px 0px
+    margin: 15px 0px;
 }
 
 div.column h2 {

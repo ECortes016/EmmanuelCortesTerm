@@ -55,12 +55,11 @@ div.bcontent {
     color: white;
 }
 
-/
 /* BODY CONTENT STYLES */
 
-h3,
-h2 {
-    font-family: 'Allan', Helvetica, Arial, sans-serif;
+h2,
+h3 {
+    font-family: 'Allan', cursive;
 }
 
 h2 {
