@@ -28,11 +28,10 @@ h2 {
 }
 
 div.volunteer,
-div.comservice {
+div.comservice,
+.container2 p {
     font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
     font-size: 1.3em;
     line-height: 30px;
     padding: 20px;
 }
-
-div.container2 {}
