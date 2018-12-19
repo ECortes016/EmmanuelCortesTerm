@@ -35,3 +35,25 @@ div.comservice,
     line-height: 30px;
     padding: 20px;
 }
+
+/* MOBILE STYLES */
+
+@media only screen and (max-width: 480px) {
+
+    div.container2 {
+        display: none;
+    }
+
+    div.container {
+        column-count: 1;
+    }
+
+    article {
+        font-size: .9em;
+        text-indent: 25px;
+    }
+
+    div.container h1 {
+        font-size: 1.2em
+    }
+}

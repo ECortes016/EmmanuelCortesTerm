@@ -35,3 +35,16 @@ div.column img {
     width: 10%;
     display: block;
 }
+
+/* MOBILE STYLES */
+
+@media only screen and (max-width: 480px) {
+
+    div.wrap {
+        column-count: 1;
+    }
+
+    div.column p {
+        font-size: .9em;
+    }
+}

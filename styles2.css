@@ -44,3 +44,25 @@ div.projects h1 {
     text-align: center;
     font-size: 1.5em;
 }
+
+div.upper a {
+    color: black;
+}
+
+div.upper a:hover {
+    color: #2997FF
+}
+
+/* MOBILE STYLES */
+
+@media only screen and (max-width: 480px) {
+
+    div.lower ul,
+    div.lower p {
+        padding: 2px
+    }
+
+    div.projects {
+        display: none
+    }
+}
