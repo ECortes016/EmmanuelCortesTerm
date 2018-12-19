@@ -21,10 +21,16 @@ div.header {
     display: block;
     background-color: #2997FF;
     background-image: url(img/clouds1.png);
-    animation: clouds_anim 130s linear infinite;
+    animation: clouds 130s linear infinite;
+
+    text-shadow:
+        -.5px -.5px 0 #000,
+        .5px -.5px 0 #000,
+        -.5px .5px 0 #000,
+        .5px .5px 0 #000;
 }
 
-@keyframes clouds_anim {
+@keyframes clouds {
     0% {
         background-position: 0 0
     }
@@ -125,8 +131,13 @@ footer a:hover {
 
 @media only screen and (max-width: 480px) {
 
+    div.bodycontainer {
+        display: block;
+    }
+
     div.header {
-        height: 100%;
+        height: 725px;
+        display: block;
     }
 
     ul.pages {
@@ -144,6 +155,7 @@ footer a:hover {
     }
 
     footer {
-        font-size: .75em;
+        font-size: .65em;
+        display: block;
     }
 }

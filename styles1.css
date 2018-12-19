@@ -65,6 +65,10 @@ div.bcontent {
     color: white;
 }
 
+.smicons ul li:hover {
+    opacity: 0.7;
+}
+
 /* BODY CONTENT STYLES */
 
 h2,
