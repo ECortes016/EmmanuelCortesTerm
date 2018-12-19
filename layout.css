@@ -14,13 +14,14 @@ body {
 }
 
 /* HEADER STYLES */
+
 div.header {
     width: 100%;
     height: 400px;
     display: block;
     background-color: #2997FF;
     background-image: url(img/clouds1.png);
-    animation: clouds_anim 120s linear infinite;
+    animation: clouds_anim 130s linear infinite;
 }
 
 @keyframes clouds_anim {
@@ -115,4 +116,34 @@ footer a {
 
 footer a:hover {
     color: #2997FF;
+}
+
+
+/* MOBILE STYLES */
+
+/* I applied this mobile style into the layout because it'll take effect on all pages making the header of it the same on each page. */
+
+@media only screen and (max-width: 480px) {
+
+    div.header {
+        height: 100%;
+    }
+
+    ul.pages {
+        width: 100%;
+    }
+
+    nav ul li {
+        width: 100%;
+        display: block;
+    }
+
+    ul.navicons {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    footer {
+        font-size: .75em;
+    }
 }

@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+div.upper {
+    width: 100%;
+    text-align: center;
+}
+
+div.lower {
+    width: 100%;
+    text-align: center;
+}
+
+div.container h1 {
+    font-family: 'Allan', Helvetica, Arial, sans-serif;
+    font-size: 1.7em;
+}
+
+div.container h2 {
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+div.container h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+}
+
+div.lower li {
+    list-style-type: none;
+}
+
+div.lower p,
+div.lower li {
+    font-family: 'Raleway', sans-serif;
+}
+
+div.projects {
+    width: 100%;
+    padding-top: 50px;
+}
+
+div.projects h1 {
+    font-family: 'Allan', Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+}
