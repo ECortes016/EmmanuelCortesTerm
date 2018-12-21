@@ -53,6 +53,28 @@ div.upper a:hover {
     color: #2997FF
 }
 
+/* PROJECTS STYLES */
+
+figure.showcase {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    padding: 15px 0;
+}
+
+img.work {
+    width: 100%
+}
+
+figure.showcase figcaption {
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    font-size: .8em;
+    text-align: center;
+    color: white;
+    background-color: #2997FF;
+    padding: 8px 0
+}
+
 /* MOBILE STYLES */
 
 @media only screen and (max-width: 480px) {
