@@ -6,6 +6,11 @@ div.wrap {
     column-count: 3;
     column-rule: 1px solid #999;
     margin: 15px 0px;
+    height: 100%;
+}
+
+div.column {
+    height: 100%;
 }
 
 div.column h2 {

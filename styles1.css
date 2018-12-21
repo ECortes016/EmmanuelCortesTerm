@@ -7,6 +7,10 @@
 
 /* DIV STYLES */
 
+#me {
+    width: 75%;
+}
+
 div.icons {
     width: 35%;
     text-align: center;

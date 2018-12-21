@@ -1,13 +1,20 @@
 @charset "utf-8";
 
 div.container {
+    text-align: top;
     columns: 2;
     column-rule: 1px solid #999;
     margin: 15px 0px;
+    height: 55%;
+    padding: 25px;
 }
 
 div.container section p {
     padding: 15px;
+}
+
+div.column {
+    height: 100%;
 }
 
 h1,
@@ -27,22 +34,15 @@ h2 {
     text-align: center;
 }
 
-div.volunteer,
-div.comservice,
-.container2 p {
+div.column {
     font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
     font-size: 1.3em;
     line-height: 30px;
-    padding: 20px;
 }
 
 /* MOBILE STYLES */
 
 @media only screen and (max-width: 480px) {
-
-    div.container2 {
-        display: none;
-    }
 
     div.container {
         column-count: 1;
