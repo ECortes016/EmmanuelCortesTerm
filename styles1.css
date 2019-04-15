@@ -17,6 +17,10 @@ div.icons {
     display: inline-block
 }
 
+#me {
+    width: 80%;
+}
+
 div.bcontent {
     width: 50%;
     display: inline-block;
